@@ -1,0 +1,10 @@
+HOW TESTS ARE CONSTRUCTED  
+
+  English                        -    Jest 
+- testing a calculator                describe("calculator tests", () => {
+- I am going to test the                    describe("addition tests", () => {
+addition function                               test("Should return 42", () => {
+- I want to get the result 42                       expect(addition(20,22)).toBe(42);
+- I expect 20 + 22 to equal 42                  });
+                                            });
+                                        });
